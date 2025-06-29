@@ -31,12 +31,23 @@
 #forward-button,
 #unified-extensions-button,
 #fullscreen-warning,
+#urlbar-searchmode-switcher,
 .urlbar-go-button,
 .titlebar-buttonbox-container,
 .tab-close-button,
 .tab-secondary-label,
 .drm-icon {
     display: none !important;
+}
+
+/*.urlbar-container
+.urlbar
+.urlbar-input-container
+.urlbar-input-box */
+.urlbar-input {
+    box-sizing: border-box !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
 }
 
 /* Replace Extension Icons */
