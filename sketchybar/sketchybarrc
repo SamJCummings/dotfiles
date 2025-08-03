@@ -65,6 +65,7 @@ sketchybar --add item cal right \
 
 sketchybar --add item clock right \
            --set clock update_freq=10 icon=  script="$PLUGIN_DIR/clock.sh"
+           --subscribe clock system_woke
 
 sketchybar --add item battery right \
            --set battery update_freq=120 script="$PLUGIN_DIR/battery.sh" \
