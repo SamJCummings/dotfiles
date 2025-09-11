@@ -1,6 +1,6 @@
 -- Options
-vim.g.mapleader = ' ' -- Leader
-vim.g.maplocalleader = ' ' -- Local Leader
+vim.g.mapleader = ',' -- Leader
+vim.g.maplocalleader = ',' -- Local Leader
 vim.g.have_nerd_font = true -- Nerd Font
 vim.opt.number = true -- Line Numbers
 vim.opt.relativenumber = true -- Relative Line Numbers
@@ -376,7 +376,7 @@ require('lazy').setup({
         -- clangd = {},
         -- gopls = {},
         -- pyright = {},
-        -- rust_analyzer = {},
+        rust_analyzer = {},
         -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
         --
         -- Some languages (like typescript) have entire language plugins that can be useful:
